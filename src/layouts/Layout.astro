@@ -74,6 +74,15 @@ if (database.Icon && database.Icon.Type === 'file') {
       integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0"
       crossorigin="anonymous"
     />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QVDGEKY42J"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-QVDGEKY42J');
+    </script>
   </head>
   <body>
     <GoogleAnalytics trackingId={PUBLIC_GA_TRACKING_ID} />
